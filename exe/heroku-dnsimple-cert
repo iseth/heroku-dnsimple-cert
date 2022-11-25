@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
 
+# require File.expand_path('lib/command', Dir.pwd)
 require "heroku_dnsimple_cert"
-HerokuDnsimpleCert::CLI.start
+HerokuDnsimpleCert::CLI.start(ARGV)

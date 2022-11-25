@@ -18,3 +18,5 @@ _yardoc
 doc/
 .env
 .byebug_history
+
+.DS_Store
